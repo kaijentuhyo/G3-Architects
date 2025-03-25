@@ -118,12 +118,12 @@ main section {
     gap: 24px;
 }
 
-.features {
+.our-features {
     margin-left: 130px;
     max-width: 530px;
 }
 
-.feature-title {
+.our-feature-title {
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -148,7 +148,7 @@ main section {
     .team-image-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .features {
+    .our-features {
         margin-left: 20px;
     }
 }
@@ -158,7 +158,7 @@ main section {
     .teams {
         flex-direction: column;
     }
-    .features {
+    .our-features {
         margin-left: 50px auto;
     }
 }
