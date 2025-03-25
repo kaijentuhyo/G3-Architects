@@ -206,7 +206,7 @@ main section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .fact-card {
@@ -251,6 +251,7 @@ main section {
 .sponsor-companies {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-left: 40px;
 }
 
 .sponsor-companies img {
