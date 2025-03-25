@@ -234,6 +234,31 @@ main section {
 
 /* Facts Section Styes Ends */
 
+/* Sponsors Section Styles Starts */
+
+.sponsor-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsor-info {
+    max-width: 570px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
+
+/* Sponsors Section Styles Ends */
+
 /* Main Section Styles Ends */
 
 /* Resposive Media Query */
@@ -246,13 +271,19 @@ main section {
     .teams {
         flex-direction: column;
     }
-    .team-image-container, .facts-container {
+    .team-image-container,
+    .facts-container,
+    .sponsor-companies {
         grid-template-columns: repeat(1, 1fr);
     }
     .facts-container {
         justify-items: center;
         gap: 24px;
         margin-left: 0px;
+    }
+    .sponsor-companies {
+        justify-items: center;
+        gap: 50px;
     }
     .our-features {
         margin-left: 20px;
@@ -280,5 +311,11 @@ main section {
     #experience-badge {
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .sponsor-companies, .facts-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        justify-items: center;
+        margin-left: 0px;
     }
 }
