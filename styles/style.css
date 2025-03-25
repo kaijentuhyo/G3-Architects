@@ -261,6 +261,23 @@ main section {
 
 /* Main Section Styles Ends */
 
+/* Footer Section Styles Starts */
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
+
+.footer-description {
+    padding: 20px 400px;
+}
+
+/* Footer Section Styles Ends */
+
 /* Resposive Media Query */
 
 /* Small Size Device */
@@ -284,6 +301,9 @@ main section {
     .sponsor-companies {
         justify-items: center;
         gap: 50px;
+    }
+    .footer-description {
+        text-align: center;
     }
     .our-features {
         margin-left: 20px;
@@ -317,5 +337,8 @@ main section {
         gap: 50px;
         justify-items: center;
         margin-left: 0px;
+    }
+    .footer-description {
+        text-align: center;
     }
 }
